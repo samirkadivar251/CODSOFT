@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="title">
+                <a href="#">Portfolio</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <div class="intro">
+            <h1>Hi there, I'm</h1>
+            <h2>Samir Kadivar</h2>
+            <p>Creative Front-End Developer</p>
+            <p>I excel in crafting dynamic and responsive websites using HTML, CSS, JavaScript, and Bootstrap. Additionally, I leverage my knowledge of PHP and Java to develop robust back-end solutions.</p>
+            <button>Contact Me</button>
+            
+            <div class="social-media">
+                <a href="https://github.com/samirkadivar251" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/er_samir_kadivar251?igsh=ZTlhb2FqejAyeHo3" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/samir-kadivar-790114229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="./images/profile.jpg" alt="Samir Kadivar">
+        </div>
+    </div>
+
+    <div class="about-container" id="about">
+        <div class="about-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-content">
+            <div class="profile-pic-two">
+                <img src="./images/profile2.jpg" alt="sk">
+            </div>
+            <div class="about-me">
+                <h2>Introduction</h2>
+                <p>Hello, I'm Samir Kadivar, a passionate Front-End Developer. I have completed my diploma in Computer Engineering and am currently in my third year of B.Tech in Computer Engineering. I specialize in creating visually appealing and interactive web applications. I have a solid understanding of HTML, CSS, and JavaScript, as well as proficiency in programming languages like C, C++, Python, C#, PHP, and Java. I am also skilled in using jQuery for enhanced client-side scripting. My expertise includes working with various web development frameworks and libraries to deliver engaging user experiences.</p>
+
+                <div class="contact-info">
+                    <p><a href="tel:+919265933286"><i class="fa fa-phone"></i></a> +91 9265933286</p>
+                    <p><a href="mailto:samirkadivar616@gmail.com"><i class="fa fa-envelope"></i></a> samirkadivar616@gmail.com</p>
+                </div>
+                
+                <a href="./resume/Resume_Samir Kadivar.pdf" class="download-cv">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill" id="skill">
+        <h1>My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </div>
+            <div class="skill-item">
+                <h3>PHP</h3>
+                <span class="bar"><span class="php"></span></span>
+            </div>
+            <div class="skill-item">
+                <h3>JAVASCRIPT</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </div>
+            <div class="skill-item">
+                <h3>JAVA</h3>
+                <span class="bar"><span class="java"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-container" id="project">
+        <h1>My Project</h1>
+        <div class="projects-grid">
+            <div class="project-item">
+                <img src="./images/project1.png" alt="Project 1">
+                <h3>Export Import</h3>
+                <p>Dynamic website using html,css,php and javascript.</p>
+            </div>
+            <div class="project-item">
+                <img src="./images/project 2.png" alt="Project 2">
+                <h3>Toy Shop</h3>
+                <p>Toy shop website using html,css and javascript  </p>
+            </div>
+            
+            <div class="project-item">
+                <img src="./images/project 4.png" alt="Project 4">
+                <h3>Book Store</h3>
+                <p>Dynamic web application using html, css and javascript</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-container" id="contact">
+        <h1>Contact Us</h1>
+        <form action="https://formspree.io/f/mvoeeddo" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/samir-kadivar-790114229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/samir-kadivar-790114229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/samirkadivar251" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://x.com/SAMIRKADIVAR251?s=09" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Samir Kadivar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
